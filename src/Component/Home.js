@@ -27,7 +27,7 @@ class Home extends Component {
     } 
 
     imageSearch(term){
-        if(term == ''){
+        if(term === ''){
             this.fetchImages()
         }
         else{
