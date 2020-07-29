@@ -5,7 +5,7 @@ const ImageList = props =>{
         const images = props.images.slice(0, props.visible).map((image,index) =>{
             return (
                 
-                    <div key={image.id} className="grid-item card">
+                    <div key={image.id} className="grid-item card" >
                         <div className="card-body">
                             <img className="photos" alt="img" src={image.urls.small}/>
                             <div className="user-data">
